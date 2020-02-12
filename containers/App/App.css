@@ -1,0 +1,15 @@
+.App {
+    text-align: center;
+    min-height: 100vh;
+    background-color: #E6EBEA;
+}
+
+.root {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 1%;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');

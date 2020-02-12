@@ -1,0 +1,13 @@
+#chip {
+    margin: 1% 0.75% 1% 0.75%;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: grey;
+}
+
+#black-chip {
+    margin: 1% 0.75% 1% 0.75%;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: black;
+}
