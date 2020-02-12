@@ -1,0 +1,20 @@
+#statistics-paper {
+    margin-top: 20px;
+}
+
+#statistics-text {
+    line-height: 0.75;
+}
+
+#statistics-value-box {
+    font-size: 2em;
+    font-weight: 900;
+    color: grey;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#statistics-label-box {
+    font-weight: 700;
+    line-height: 1.25;
+    font-family: 'Josefin Sans', sans-serif;
+}
