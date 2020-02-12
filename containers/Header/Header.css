@@ -1,0 +1,21 @@
+#grid-root {
+    margin-top: 20px;
+}
+
+#header-text {
+    line-height: 0.75;
+}
+
+#name {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    line-height: 1.25;
+    font-size: 1.5em
+}
+
+#position {
+    font-size: small;
+    color: grey;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 1.25;
+}

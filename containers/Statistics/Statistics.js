@@ -4,7 +4,6 @@ import Box from '@material-ui/core/Box';
 import Typography from '@material-ui/core/Typography';
 import React from 'react';
 import './Statistics.css';
-import '../App/App.css';
 
 function Statistics () {
     const data = [

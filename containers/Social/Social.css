@@ -1,0 +1,9 @@
+#media {
+    width: 20px;
+    height: 20px;
+    float: right;
+}
+
+#grid {
+    justify-content: flex-end;
+}
