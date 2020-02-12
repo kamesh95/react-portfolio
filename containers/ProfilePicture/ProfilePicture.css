@@ -1,0 +1,17 @@
+#container-box {
+    left: 0%;
+    right: 0%;
+    z-index: 1;
+    width: 9rem;
+    height: 9rem;
+    display: flex;
+    border-radius: 50%;
+    justify-content: center;
+}
+
+#profile-image {
+    height: 9rem;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
