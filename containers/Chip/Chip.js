@@ -2,7 +2,6 @@ import Chip from '@material-ui/core/Chip';
 import Paper from '@material-ui/core/Paper';
 import React from 'react';
 import './Chip.css';
-import '../App/App.css';
 
 function ChipComponent () {
     const chipData = [
@@ -19,7 +18,7 @@ function ChipComponent () {
     ];
 
     return (
-        <Paper className="root" elevation={0}>
+        <Paper id="paper" elevation={0}>
             <Chip id="black-chip" key={11} variant={'outlined'} label={'TOP SKILLS'} />
             {chipData.map(data => <Chip key={data.key} label={data.label} id="chip" />)}
         </Paper>

@@ -2,12 +2,15 @@ import Grid from '@material-ui/core/Grid';
 import CardMedia from '@material-ui/core/CardMedia';
 import React from 'react';
 import './Social.css';
+import * as soicon from '../../public/so-icon.png';
+import * as linkedin from '../../public/linkedin.png';
+import * as octocat from '../../public/Octocat.png';
 
 function Social () {
     const data = [
-        { key: 1, image: 'so-icon.png' },
-        { key: 2, image: 'insta-logo.png' },
-        { key: 3, image: 'Octocat.png' }
+        { key: 1, image: soicon.default },
+        { key: 2, image: linkedin.default },
+        { key: 3, image: octocat.default }
     ];
 
     return (
