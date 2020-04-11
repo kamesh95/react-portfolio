@@ -8,7 +8,8 @@
     "start": "webpack-dev-server --mode development",
     "format": "prettier --write \"src/**/*.js\"",
     "eslint-fix": "eslint --fix \"src/**/*.js\"",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "deploy": "gh-pages -d build"
   },
   "keywords": [
     "portfolio",
@@ -21,6 +22,7 @@
   ],
   "author": "Kamesh Dashora",
   "license": "ISC",
+  "homepage": "http://kamesh95.github.io/react-portfolio",
   "devDependencies": {
     "@babel/core": "^7.8.4",
     "@babel/plugin-proposal-class-properties": "^7.3.0",
@@ -34,6 +36,7 @@
     "eslint-loader": "^2.1.1",
     "eslint-plugin-react": "^7.12.3",
     "file-loader": "^5.0.2",
+    "gh-pages": "^2.2.0",
     "html-webpack-plugin": "^3.2.0",
     "less": "^3.9.0",
     "less-loader": "^4.1.0",
