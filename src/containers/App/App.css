@@ -10,13 +10,21 @@
 
 #card-actions {
     justify-content: center;
+    padding-bottom: 2.5%;
 }
 
 #card {
     min-width: 72.5%;
-    margin: -7% 30% 0% 30%;
-    padding-top: 3%;
+    margin: 6rem 30% 1% 30%;
+    padding-top: 2%;
     position: relative;
+}
+
+
+@media only screen and (max-width: 600px) {
+    #card {
+        margin: 6rem 5% 1% 5%;
+    }
 }
 
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');

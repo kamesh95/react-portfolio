@@ -1,0 +1,9 @@
+.fab {
+    padding-left: 8% !important;
+    padding-right: 8% !important;
+    background-color: rgba(0, 0, 0, 0.80) !important;
+}
+
+.fab:hover {
+    background-color: black !important;
+}

@@ -1,6 +1,8 @@
 #container-box {
-    left: 0%;
-    right: 0%;
+    position: absolute;
+    left: auto;
+    right: auto;
+    top: 2.5%;
     z-index: 1;
     width: 9rem;
     height: 9rem;
