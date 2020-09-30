@@ -1,7 +1,7 @@
 .App {
     text-align: center;
     min-height: 100vh;
-    background-image: linear-gradient(#DDC8AB, #7DAABD)
+    background-color: mistyrose;
 }
 
 #root-grid {
