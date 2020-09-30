@@ -4,8 +4,8 @@ import * as octocat from '../../public/Octocat.png';
 import * as image from '../../public/Kamesh.jpg';
 
 export const skillData = [
-    { key: 1, label: 'Microservices' },
-    { key: 2, label: 'AngularJS' },
+    { key: 1, label: 'Docker' },
+    { key: 2, label: 'Angular' },
     { key: 3, label: 'MS Azure' },
     { key: 4, label: 'MS SQL' },
     { key: 5, label: 'Node.js' },
@@ -24,17 +24,17 @@ export const socialData = [
 
 export const personalInfo = {
     name: 'KAMESH DASHORA',
-    designation: 'LEAD PROGRAMMER ANALYST',
+    designation: 'SENIOR PROGRAMMER ANALYST',
     email: 'dashorakamesh95@gmail.com'
 };
 
 export const profilePicture = image;
 
 export const statisticsData = [
-    { key: 1, label: 'STACK OVERFLOW REACH', value: '31k+' },
+    { key: 1, label: 'STACK OVERFLOW REACH', value: '42k+' },
     { key: 2, label: 'YEARS OF EXPERIENCE', value: '3+' },
-    { key: 3, label: 'WORK ITEMS COMPLETED', value: '600+' },
-    { key: 4, label: 'STACK OVERFLOW REPUTATION', value: '682' }
+    { key: 3, label: 'WORK ITEMS COMPLETED', value: '700+' },
+    { key: 4, label: 'STACK OVERFLOW REPUTATION', value: '797' }
 ];
 
 export const summaryData = [
